@@ -5,7 +5,7 @@ Existing continual learning (CL) benchmarks, such as Permuted-MNIST and Split-CI
 
 ### Data download 
 
-[Google Drive](https://creativecommons.org/licenses/by/4.0/)
+[Google Drive](https://drive.google.com/file/d/1xj5DCYr502SlvoF0INCL1n-gbxi0Kr3v/view?usp=sharing)
 
 
 ### Team
