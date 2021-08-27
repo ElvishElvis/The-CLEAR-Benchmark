@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Overview
 
-You can use the [editor on GitHub](https://github.com/ElvishElvis/The-CLEAR-Benchmark-Continual-LEArning-on-Real-World-Imagery/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Existing continual learning (CL) benchmarks, such as Permuted-MNIST and Split-CIFAR, are artificially made and do not generalize to real-world CL applications. In this work, we propose CLEAR, the first continual image recognition benchmark dataset with a natural **temporal evolution of visual concepts**. We argue that temporally-evolving visual concepts offer a more realistic CL scenario with **smooth** transitions between distributions. Our contributions are twofold: (1) To build CLEAR out of the largest existing public image collection (YFCC100M), we introduce a new low-cost "visio-linguistic-based" dataset curation method by making use of recent zero-shot vision-language models (OpenAI's CLIP) to dramatically decrease annotation cost, allowing us to create real-world CL datasets that span a **decade** (2) CLEAR is further post-processed by crowd-sourced validation (Amazon MTurk) to remove misclassified and inappropriate images originally hidden in YFCC100M image collection. The major strengths of CLEAR over prior CL benchmarks include (1) smooth temporal evolution of visual concepts in CLEAR enables a novel and more practical "online" evaluation protocol for continual learning algorithms, which is to "train now and test in the future" (2) CLEAR contains complex real-world imagery (not object-centered, e.g., CIFAR and ImageNet) and is more relevant to real-world applications (3) besides high-quality labeled data, CLEAR offers abundant unlabeled samples for each time period for continual semi-supervised and unsupervised learning. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Data download 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Google Drive](https://creativecommons.org/licenses/by/4.0/)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Team
+This dataset is created by team in [CMU Argo AI Center for Autonomous Vehicle Research](https://labs.ri.cmu.edu/argo-ai-center/)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### License
+[CC BY](https://creativecommons.org/licenses/by/4.0/)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ElvishElvis/The-CLEAR-Benchmark-Continual-LEArning-on-Real-World-Imagery/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
